@@ -1,0 +1,13 @@
+prefix=E:/Proects/AI Proects/venv1/Library
+exec_prefix=E:/Proects/AI Proects/venv1/Library
+libdir=E:/Proects/AI Proects/venv1/Library/lib
+sharedlibdir=E:/Proects/AI Proects/venv1/Library/lib
+includedir=E:/Proects/AI Proects/venv1/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
