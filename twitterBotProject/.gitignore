@@ -41,6 +41,21 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+# Virtual environment
+myenv/
+venv/
+env/
+ENV/
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large files
+*.dll
+*.lib
+
+# ... (rest of your existing .gitignore content)
 # Project-specific
 # Add any other files or directories specific to your project that shouldn't be tracked
